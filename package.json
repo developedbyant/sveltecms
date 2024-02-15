@@ -1,0 +1,34 @@
+{
+	"name": "sveltecms",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"buildApp": "vite build",
+		"startApp": "PORT=3004 pm2 start ./build/index.js --name=sveltecms.dev"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^4.0.1",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"sass": "^1.70.0",
+		"svelte": "^5.0.0-next.1",
+		"svelte-check": "^3.6.0",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"cloudinary": "^2.0.1",
+		"date-fns": "^3.3.1",
+		"md-to-svelte": "^0.0.10",
+		"mongodb": "^6.3.0",
+		"slugify": "^1.6.6"
+	}
+}

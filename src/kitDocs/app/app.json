@@ -1,0 +1,76 @@
+{
+    "projectName": "kitDocs",
+    "navLinks": [
+        {
+            "text": "Home",
+            "href": "/",
+            "external": false
+        },
+        {
+            "text": "demo",
+            "href": "/admin",
+            "external": true
+        },
+        {
+            "text": "documentation",
+            "href": "/docs",
+            "external": false
+        }
+    ],
+    "socialMedias": {
+        "twitter": "https://twitter.com/developedbyant",
+        "github": "https://github.com/developedbyant/kitdocs"
+    },
+    "footer": {
+        "links": [
+            {
+                "title": "Resources",
+                "links": [
+                    {
+                        "text": "Home",
+                        "href": "/",
+                        "external": false
+                    },
+                    {
+                        "text": "Svelte",
+                        "href": "https://svelte.dev/",
+                        "external": true
+                    }
+                ]
+            }
+        ]
+    },
+    "kitDocs": {
+        "Introduction": [
+            {
+                "layout": "Introduction",
+                "title": "Introduction",
+                "description": "Welcome to kitDocs learn how to install,update,handle layout,add alias and more.",
+                "href": "/docs",
+                "new": false,
+                "headers": [
+                    {
+                        "id": "introduction",
+                        "text": "Introduction"
+                    },
+                    {
+                        "id": "what-is-sveltecms",
+                        "text": "What is svelteCMS ?"
+                    },
+                    {
+                        "id": "how-to-add-to-your-project",
+                        "text": "How to add to your project"
+                    },
+                    {
+                        "id": "add-sveltecms-alias",
+                        "text": "Add svelteCMS alias"
+                    },
+                    {
+                        "id": "how-to-update",
+                        "text": "How to update ?"
+                    }
+                ]
+            }
+        ]
+    }
+}
